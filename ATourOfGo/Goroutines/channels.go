@@ -4,7 +4,7 @@ import "fmt"
 
 // channelは並列実行された関数間における値の送受信を提供する型
 // 宣言はチャンネルで扱う型とともに行う
-// ちなみにgorutineは非同期処理にするために戻り値を書けない
+// ちなみにgoroutineは非同期処理にするために戻り値を書けない
 
 func sum(s []int, c chan int) {
 	sum := 0
