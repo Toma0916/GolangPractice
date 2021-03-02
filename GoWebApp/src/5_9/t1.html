@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" >
+        <title>Go Web Programming</title>        
+    </head>
+    <body>
+        <div> ここはt1.html （インクルード前）</div>
+        <div> t1.htmlでのドットの価 {{ . }} </div>
+        <hr/>
+        {{ template "t2.html" .}}
+        <hr/>
+        <div> ここはt1.html （インクルード後） </div>
+    </body>
+</html>
